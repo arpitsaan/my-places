@@ -4,3 +4,5 @@ My Places is all about discovering places nearby and saving them to your favorit
 We all wanna have that list of places to keep a track of!
 
 Simple, Easy, Fast.
+
+(please run `pod install` in root before compilation)
