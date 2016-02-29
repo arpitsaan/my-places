@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0246DF9CF031AC9A97784A62C21518A9B62F9411",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0246DF9CF031AC9A97784A62C21518A9B62F9411" : 0,
+    "E7B32114FF577087B631C4CFA4058B0C5FBC74A0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D2EB2F81-28F8-493D-AE89-FFAB9B775F63",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0246DF9CF031AC9A97784A62C21518A9B62F9411" : "myplaces\/",
+    "E7B32114FF577087B631C4CFA4058B0C5FBC74A0" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "myplaces",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "myplaces.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:arpitsaan\/my-places.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0246DF9CF031AC9A97784A62C21518A9B62F9411"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:arpitsaan\/my-places.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E7B32114FF577087B631C4CFA4058B0C5FBC74A0"
+    }
+  ]
+}

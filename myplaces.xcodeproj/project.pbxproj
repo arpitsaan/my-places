@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201C93DFF3CF61002B8C45FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE05F49F71F4C7A7670EC93 /* libPods.a */; };
+		2B2EA01F1C839989004D0CFC /* PlacesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA01E1C839989004D0CFC /* PlacesListViewController.m */; };
+		2B2EA0241C83ADE0004D0CFC /* CDPlaceDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA0211C83ADE0004D0CFC /* CDPlaceDetails+CoreDataProperties.m */; };
+		2B2EA0251C83ADE0004D0CFC /* CDPlaceDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA0231C83ADE0004D0CFC /* CDPlaceDetails.m */; };
+		2B2EA0281C83B58C004D0CFC /* ListPlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA0271C83B58C004D0CFC /* ListPlaceCell.m */; };
+		2B2EA02B1C83B6E7004D0CFC /* MPCommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA02A1C83B6E7004D0CFC /* MPCommonFunctions.m */; };
+		2B2EA02E1C83B7D3004D0CFC /* MPImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA02D1C83B7D3004D0CFC /* MPImageCache.m */; };
+		2B2EA0351C83B9DE004D0CFC /* UIImageView+UrlImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA0341C83B9DE004D0CFC /* UIImageView+UrlImage.m */; };
+		2B2EA0381C83C7FB004D0CFC /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA0371C83C7FB004D0CFC /* PlaceDetailViewController.m */; };
+		2B2EA03B1C83C882004D0CFC /* GetPlacePhotoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA03A1C83C882004D0CFC /* GetPlacePhotoApi.m */; };
+		2B2EA03E1C83D329004D0CFC /* PlacePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA03D1C83D329004D0CFC /* PlacePhotoCell.m */; };
+		2B2EA0411C83DC90004D0CFC /* PlaceMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EA0401C83DC90004D0CFC /* PlaceMapViewController.m */; };
+		2BB56E571C83024A00CA9D4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E561C83024A00CA9D4D /* main.m */; };
+		2BB56E5A1C83024A00CA9D4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E591C83024A00CA9D4D /* AppDelegate.m */; };
+		2BB56E5D1C83024A00CA9D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E5C1C83024A00CA9D4D /* ViewController.m */; };
+		2BB56E601C83024A00CA9D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB56E5E1C83024A00CA9D4D /* Main.storyboard */; };
+		2BB56E631C83024A00CA9D4D /* myplaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E611C83024A00CA9D4D /* myplaces.xcdatamodeld */; };
+		2BB56E651C83024A00CA9D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB56E641C83024A00CA9D4D /* Assets.xcassets */; };
+		2BB56E681C83024A00CA9D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB56E661C83024A00CA9D4D /* LaunchScreen.storyboard */; };
+		2BB56E721C83127800CA9D4D /* MPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E711C83127800CA9D4D /* MPTabBarController.m */; };
+		2BB56E771C83138800CA9D4D /* MPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E761C83138800CA9D4D /* MPConstants.m */; };
+		2BB56E7B1C83144C00CA9D4D /* MPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E7A1C83144C00CA9D4D /* MPNavigationController.m */; };
+		2BB56E821C8335A100CA9D4D /* MPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E811C8335A100CA9D4D /* MPLocationManager.m */; };
+		2BB56E841C8337C700CA9D4D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB56E831C8337C700CA9D4D /* CoreLocation.framework */; };
+		2BB56E871C8340CE00CA9D4D /* MPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E861C8340CE00CA9D4D /* MPBaseViewController.m */; };
+		2BB56E8A1C8340EB00CA9D4D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E891C8340EB00CA9D4D /* HomeViewController.m */; };
+		2BB56E8D1C8340FF00CA9D4D /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E8C1C8340FF00CA9D4D /* FavoritesViewController.m */; };
+		2BB56E931C83417400CA9D4D /* PlaceDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E921C83417400CA9D4D /* PlaceDetail.m */; };
+		2BB56E991C8341C100CA9D4D /* HomePlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E981C8341C100CA9D4D /* HomePlaceCell.m */; };
+		2BB56E9C1C83436100CA9D4D /* HomeLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56E9B1C83436100CA9D4D /* HomeLocationCell.m */; };
+		2BB56EA51C834AFB00CA9D4D /* MPFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56EA41C834AFB00CA9D4D /* MPFonts.m */; };
+		2BB56EAD1C83518500CA9D4D /* MPKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56EAC1C83518500CA9D4D /* MPKeys.m */; };
+		2BB56EB01C83522600CA9D4D /* GetNearbyPlacesApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB56EAF1C83522600CA9D4D /* GetNearbyPlacesApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B2EA01D1C839989004D0CFC /* PlacesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesListViewController.h; path = MainViewControllers/PlacesListViewController.h; sourceTree = "<group>"; };
+		2B2EA01E1C839989004D0CFC /* PlacesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesListViewController.m; path = MainViewControllers/PlacesListViewController.m; sourceTree = "<group>"; };
+		2B2EA0201C83ADE0004D0CFC /* CDPlaceDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDPlaceDetails+CoreDataProperties.h"; path = "CoreDataModels/CDPlaceDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2B2EA0211C83ADE0004D0CFC /* CDPlaceDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CDPlaceDetails+CoreDataProperties.m"; path = "CoreDataModels/CDPlaceDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2B2EA0221C83ADE0004D0CFC /* CDPlaceDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDPlaceDetails.h; path = CoreDataModels/CDPlaceDetails.h; sourceTree = "<group>"; };
+		2B2EA0231C83ADE0004D0CFC /* CDPlaceDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDPlaceDetails.m; path = CoreDataModels/CDPlaceDetails.m; sourceTree = "<group>"; };
+		2B2EA0261C83B58C004D0CFC /* ListPlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListPlaceCell.h; path = UIElements/ListPlaceCell.h; sourceTree = "<group>"; };
+		2B2EA0271C83B58C004D0CFC /* ListPlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListPlaceCell.m; path = UIElements/ListPlaceCell.m; sourceTree = "<group>"; };
+		2B2EA0291C83B6E7004D0CFC /* MPCommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPCommonFunctions.h; path = Commons/MPCommonFunctions.h; sourceTree = "<group>"; };
+		2B2EA02A1C83B6E7004D0CFC /* MPCommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPCommonFunctions.m; path = Commons/MPCommonFunctions.m; sourceTree = "<group>"; };
+		2B2EA02C1C83B7D3004D0CFC /* MPImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPImageCache.h; path = ManagerClasses/MPImageCache.h; sourceTree = "<group>"; };
+		2B2EA02D1C83B7D3004D0CFC /* MPImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPImageCache.m; path = ManagerClasses/MPImageCache.m; sourceTree = "<group>"; };
+		2B2EA0331C83B9DE004D0CFC /* UIImageView+UrlImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+UrlImage.h"; path = "Categories/UIImageView+UrlImage.h"; sourceTree = "<group>"; };
+		2B2EA0341C83B9DE004D0CFC /* UIImageView+UrlImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+UrlImage.m"; path = "Categories/UIImageView+UrlImage.m"; sourceTree = "<group>"; };
+		2B2EA0361C83C7FB004D0CFC /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceDetailViewController.h; path = MainViewControllers/PlaceDetailViewController.h; sourceTree = "<group>"; };
+		2B2EA0371C83C7FB004D0CFC /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceDetailViewController.m; path = MainViewControllers/PlaceDetailViewController.m; sourceTree = "<group>"; };
+		2B2EA0391C83C882004D0CFC /* GetPlacePhotoApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetPlacePhotoApi.h; path = ApiClasses/GetPlacePhotoApi.h; sourceTree = "<group>"; };
+		2B2EA03A1C83C882004D0CFC /* GetPlacePhotoApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetPlacePhotoApi.m; path = ApiClasses/GetPlacePhotoApi.m; sourceTree = "<group>"; };
+		2B2EA03C1C83D329004D0CFC /* PlacePhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacePhotoCell.h; path = UIElements/PlacePhotoCell.h; sourceTree = "<group>"; };
+		2B2EA03D1C83D329004D0CFC /* PlacePhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacePhotoCell.m; path = UIElements/PlacePhotoCell.m; sourceTree = "<group>"; };
+		2B2EA03F1C83DC90004D0CFC /* PlaceMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceMapViewController.h; path = MainViewControllers/PlaceMapViewController.h; sourceTree = "<group>"; };
+		2B2EA0401C83DC90004D0CFC /* PlaceMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceMapViewController.m; path = MainViewControllers/PlaceMapViewController.m; sourceTree = "<group>"; };
+		2BB56E521C83024A00CA9D4D /* My Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB56E561C83024A00CA9D4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BB56E581C83024A00CA9D4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BB56E591C83024A00CA9D4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BB56E5B1C83024A00CA9D4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BB56E5C1C83024A00CA9D4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BB56E5F1C83024A00CA9D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BB56E621C83024A00CA9D4D /* myplaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myplaces.xcdatamodel; sourceTree = "<group>"; };
+		2BB56E641C83024A00CA9D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB56E671C83024A00CA9D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BB56E691C83024A00CA9D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB56E701C83127800CA9D4D /* MPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTabBarController.h; sourceTree = "<group>"; };
+		2BB56E711C83127800CA9D4D /* MPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTabBarController.m; sourceTree = "<group>"; };
+		2BB56E751C83138800CA9D4D /* MPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPConstants.h; sourceTree = "<group>"; };
+		2BB56E761C83138800CA9D4D /* MPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPConstants.m; sourceTree = "<group>"; };
+		2BB56E791C83144C00CA9D4D /* MPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNavigationController.h; sourceTree = "<group>"; };
+		2BB56E7A1C83144C00CA9D4D /* MPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNavigationController.m; sourceTree = "<group>"; };
+		2BB56E801C8335A100CA9D4D /* MPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPLocationManager.h; path = ManagerClasses/MPLocationManager.h; sourceTree = "<group>"; };
+		2BB56E811C8335A100CA9D4D /* MPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPLocationManager.m; path = ManagerClasses/MPLocationManager.m; sourceTree = "<group>"; };
+		2BB56E831C8337C700CA9D4D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2BB56E851C8340CE00CA9D4D /* MPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPBaseViewController.h; path = BaseViewControllers/MPBaseViewController.h; sourceTree = "<group>"; };
+		2BB56E861C8340CE00CA9D4D /* MPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPBaseViewController.m; path = BaseViewControllers/MPBaseViewController.m; sourceTree = "<group>"; };
+		2BB56E881C8340EB00CA9D4D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = MainViewControllers/HomeViewController.h; sourceTree = "<group>"; };
+		2BB56E891C8340EB00CA9D4D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = MainViewControllers/HomeViewController.m; sourceTree = "<group>"; };
+		2BB56E8B1C8340FF00CA9D4D /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoritesViewController.h; path = MainViewControllers/FavoritesViewController.h; sourceTree = "<group>"; };
+		2BB56E8C1C8340FF00CA9D4D /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoritesViewController.m; path = MainViewControllers/FavoritesViewController.m; sourceTree = "<group>"; };
+		2BB56E911C83417400CA9D4D /* PlaceDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceDetail.h; path = Models/PlaceDetail.h; sourceTree = "<group>"; };
+		2BB56E921C83417400CA9D4D /* PlaceDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceDetail.m; path = Models/PlaceDetail.m; sourceTree = "<group>"; };
+		2BB56E971C8341C100CA9D4D /* HomePlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePlaceCell.h; path = UIElements/HomePlaceCell.h; sourceTree = "<group>"; };
+		2BB56E981C8341C100CA9D4D /* HomePlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePlaceCell.m; path = UIElements/HomePlaceCell.m; sourceTree = "<group>"; };
+		2BB56E9A1C83436100CA9D4D /* HomeLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeLocationCell.h; path = UIElements/HomeLocationCell.h; sourceTree = "<group>"; };
+		2BB56E9B1C83436100CA9D4D /* HomeLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeLocationCell.m; path = UIElements/HomeLocationCell.m; sourceTree = "<group>"; };
+		2BB56E9D1C83442000CA9D4D /* MPMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPMacros.h; path = Commons/MPMacros.h; sourceTree = "<group>"; };
+		2BB56E9F1C8344DB00CA9D4D /* myplaces-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "myplaces-PrefixHeader.pch"; path = "Commons/myplaces-PrefixHeader.pch"; sourceTree = "<group>"; };
+		2BB56EA31C834AFB00CA9D4D /* MPFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPFonts.h; path = Commons/MPFonts.h; sourceTree = "<group>"; };
+		2BB56EA41C834AFB00CA9D4D /* MPFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPFonts.m; path = Commons/MPFonts.m; sourceTree = "<group>"; };
+		2BB56EAB1C83518500CA9D4D /* MPKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPKeys.h; path = Commons/MPKeys.h; sourceTree = "<group>"; };
+		2BB56EAC1C83518500CA9D4D /* MPKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPKeys.m; path = Commons/MPKeys.m; sourceTree = "<group>"; };
+		2BB56EAE1C83522600CA9D4D /* GetNearbyPlacesApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetNearbyPlacesApi.h; path = Commons/GetNearbyPlacesApi.h; sourceTree = "<group>"; };
+		2BB56EAF1C83522600CA9D4D /* GetNearbyPlacesApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetNearbyPlacesApi.m; path = Commons/GetNearbyPlacesApi.m; sourceTree = "<group>"; };
+		6C9201FC2975407B5172B7F1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		84ECB9ED3A2C03276E12FF06 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8DE05F49F71F4C7A7670EC93 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB56E4F1C83024A00CA9D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB56E841C8337C700CA9D4D /* CoreLocation.framework in Frameworks */,
+				201C93DFF3CF61002B8C45FB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C4E2D1EB8CFA040EC1D6C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C9201FC2975407B5172B7F1 /* Pods.debug.xcconfig */,
+				84ECB9ED3A2C03276E12FF06 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B2EA02F1C83B98D004D0CFC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2B2EA0331C83B9DE004D0CFC /* UIImageView+UrlImage.h */,
+				2B2EA0341C83B9DE004D0CFC /* UIImageView+UrlImage.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		2BB56E491C83024A00CA9D4D = {
+			isa = PBXGroup;
+			children = (
+				2BB56E9E1C83443E00CA9D4D /* Frameworks */,
+				2BB56E541C83024A00CA9D4D /* myplaces */,
+				2BB56E531C83024A00CA9D4D /* Products */,
+				22C4E2D1EB8CFA040EC1D6C0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB56E531C83024A00CA9D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E521C83024A00CA9D4D /* My Places.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB56E541C83024A00CA9D4D /* myplaces */ = {
+			isa = PBXGroup;
+			children = (
+				2B2EA02F1C83B98D004D0CFC /* Categories */,
+				2BB56EA61C83506800CA9D4D /* ApiClasses */,
+				2BB56E901C83414500CA9D4D /* CoreDataModels */,
+				2BB56E8F1C83413600CA9D4D /* Models */,
+				2BB56E8E1C83410500CA9D4D /* UIElements */,
+				2BB56E7C1C83356600CA9D4D /* ManagerClasses */,
+				2BB56E781C83143200CA9D4D /* BaseViewControllers */,
+				2BB56E741C83136800CA9D4D /* Commons */,
+				2BB56E731C83128100CA9D4D /* MainViewControllers */,
+				2BB56E6F1C8307EC00CA9D4D /* AppBase */,
+				2BB56E551C83024A00CA9D4D /* Supporting Files */,
+			);
+			path = myplaces;
+			sourceTree = "<group>";
+		};
+		2BB56E551C83024A00CA9D4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E561C83024A00CA9D4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BB56E6F1C8307EC00CA9D4D /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E581C83024A00CA9D4D /* AppDelegate.h */,
+				2BB56E591C83024A00CA9D4D /* AppDelegate.m */,
+				2BB56E5B1C83024A00CA9D4D /* ViewController.h */,
+				2BB56E5C1C83024A00CA9D4D /* ViewController.m */,
+				2BB56E5E1C83024A00CA9D4D /* Main.storyboard */,
+				2BB56E641C83024A00CA9D4D /* Assets.xcassets */,
+				2BB56E661C83024A00CA9D4D /* LaunchScreen.storyboard */,
+				2BB56E691C83024A00CA9D4D /* Info.plist */,
+				2BB56E611C83024A00CA9D4D /* myplaces.xcdatamodeld */,
+			);
+			name = AppBase;
+			sourceTree = "<group>";
+		};
+		2BB56E731C83128100CA9D4D /* MainViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E701C83127800CA9D4D /* MPTabBarController.h */,
+				2BB56E711C83127800CA9D4D /* MPTabBarController.m */,
+				2BB56E881C8340EB00CA9D4D /* HomeViewController.h */,
+				2BB56E891C8340EB00CA9D4D /* HomeViewController.m */,
+				2BB56E8B1C8340FF00CA9D4D /* FavoritesViewController.h */,
+				2BB56E8C1C8340FF00CA9D4D /* FavoritesViewController.m */,
+				2B2EA01D1C839989004D0CFC /* PlacesListViewController.h */,
+				2B2EA01E1C839989004D0CFC /* PlacesListViewController.m */,
+				2B2EA0361C83C7FB004D0CFC /* PlaceDetailViewController.h */,
+				2B2EA0371C83C7FB004D0CFC /* PlaceDetailViewController.m */,
+				2B2EA03F1C83DC90004D0CFC /* PlaceMapViewController.h */,
+				2B2EA0401C83DC90004D0CFC /* PlaceMapViewController.m */,
+			);
+			name = MainViewControllers;
+			sourceTree = "<group>";
+		};
+		2BB56E741C83136800CA9D4D /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56EA31C834AFB00CA9D4D /* MPFonts.h */,
+				2BB56EA41C834AFB00CA9D4D /* MPFonts.m */,
+				2BB56E751C83138800CA9D4D /* MPConstants.h */,
+				2BB56E761C83138800CA9D4D /* MPConstants.m */,
+				2BB56E9D1C83442000CA9D4D /* MPMacros.h */,
+				2BB56E9F1C8344DB00CA9D4D /* myplaces-PrefixHeader.pch */,
+				2BB56EAB1C83518500CA9D4D /* MPKeys.h */,
+				2BB56EAC1C83518500CA9D4D /* MPKeys.m */,
+				2B2EA0291C83B6E7004D0CFC /* MPCommonFunctions.h */,
+				2B2EA02A1C83B6E7004D0CFC /* MPCommonFunctions.m */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		2BB56E781C83143200CA9D4D /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E791C83144C00CA9D4D /* MPNavigationController.h */,
+				2BB56E7A1C83144C00CA9D4D /* MPNavigationController.m */,
+				2BB56E851C8340CE00CA9D4D /* MPBaseViewController.h */,
+				2BB56E861C8340CE00CA9D4D /* MPBaseViewController.m */,
+			);
+			name = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		2BB56E7C1C83356600CA9D4D /* ManagerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E801C8335A100CA9D4D /* MPLocationManager.h */,
+				2BB56E811C8335A100CA9D4D /* MPLocationManager.m */,
+				2B2EA02C1C83B7D3004D0CFC /* MPImageCache.h */,
+				2B2EA02D1C83B7D3004D0CFC /* MPImageCache.m */,
+			);
+			name = ManagerClasses;
+			sourceTree = "<group>";
+		};
+		2BB56E8E1C83410500CA9D4D /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E971C8341C100CA9D4D /* HomePlaceCell.h */,
+				2BB56E981C8341C100CA9D4D /* HomePlaceCell.m */,
+				2BB56E9A1C83436100CA9D4D /* HomeLocationCell.h */,
+				2BB56E9B1C83436100CA9D4D /* HomeLocationCell.m */,
+				2B2EA0261C83B58C004D0CFC /* ListPlaceCell.h */,
+				2B2EA0271C83B58C004D0CFC /* ListPlaceCell.m */,
+				2B2EA03C1C83D329004D0CFC /* PlacePhotoCell.h */,
+				2B2EA03D1C83D329004D0CFC /* PlacePhotoCell.m */,
+			);
+			name = UIElements;
+			sourceTree = "<group>";
+		};
+		2BB56E8F1C83413600CA9D4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E911C83417400CA9D4D /* PlaceDetail.h */,
+				2BB56E921C83417400CA9D4D /* PlaceDetail.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2BB56E901C83414500CA9D4D /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B2EA0201C83ADE0004D0CFC /* CDPlaceDetails+CoreDataProperties.h */,
+				2B2EA0211C83ADE0004D0CFC /* CDPlaceDetails+CoreDataProperties.m */,
+				2B2EA0221C83ADE0004D0CFC /* CDPlaceDetails.h */,
+				2B2EA0231C83ADE0004D0CFC /* CDPlaceDetails.m */,
+			);
+			name = CoreDataModels;
+			sourceTree = "<group>";
+		};
+		2BB56E9E1C83443E00CA9D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56E831C8337C700CA9D4D /* CoreLocation.framework */,
+				8DE05F49F71F4C7A7670EC93 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BB56EA61C83506800CA9D4D /* ApiClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56EAE1C83522600CA9D4D /* GetNearbyPlacesApi.h */,
+				2BB56EAF1C83522600CA9D4D /* GetNearbyPlacesApi.m */,
+				2B2EA0391C83C882004D0CFC /* GetPlacePhotoApi.h */,
+				2B2EA03A1C83C882004D0CFC /* GetPlacePhotoApi.m */,
+			);
+			name = ApiClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB56E511C83024A00CA9D4D /* My Places */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB56E6C1C83024A00CA9D4D /* Build configuration list for PBXNativeTarget "My Places" */;
+			buildPhases = (
+				C4D1422AFAE469DA32615953 /* Check Pods Manifest.lock */,
+				2BB56E4E1C83024A00CA9D4D /* Sources */,
+				2BB56E4F1C83024A00CA9D4D /* Frameworks */,
+				2BB56E501C83024A00CA9D4D /* Resources */,
+				182A1B9E08AC32D72F38211D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Places";
+			productName = myplaces;
+			productReference = 2BB56E521C83024A00CA9D4D /* My Places.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB56E4A1C83024A00CA9D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = saanspit;
+				TargetAttributes = {
+					2BB56E511C83024A00CA9D4D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 969LCYLZEU;
+					};
+				};
+			};
+			buildConfigurationList = 2BB56E4D1C83024A00CA9D4D /* Build configuration list for PBXProject "myplaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB56E491C83024A00CA9D4D;
+			productRefGroup = 2BB56E531C83024A00CA9D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB56E511C83024A00CA9D4D /* My Places */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB56E501C83024A00CA9D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB56E681C83024A00CA9D4D /* LaunchScreen.storyboard in Resources */,
+				2BB56E651C83024A00CA9D4D /* Assets.xcassets in Resources */,
+				2BB56E601C83024A00CA9D4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182A1B9E08AC32D72F38211D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D1422AFAE469DA32615953 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB56E4E1C83024A00CA9D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB56E991C8341C100CA9D4D /* HomePlaceCell.m in Sources */,
+				2B2EA02E1C83B7D3004D0CFC /* MPImageCache.m in Sources */,
+				2B2EA0241C83ADE0004D0CFC /* CDPlaceDetails+CoreDataProperties.m in Sources */,
+				2B2EA0281C83B58C004D0CFC /* ListPlaceCell.m in Sources */,
+				2BB56EAD1C83518500CA9D4D /* MPKeys.m in Sources */,
+				2BB56EA51C834AFB00CA9D4D /* MPFonts.m in Sources */,
+				2B2EA03B1C83C882004D0CFC /* GetPlacePhotoApi.m in Sources */,
+				2B2EA03E1C83D329004D0CFC /* PlacePhotoCell.m in Sources */,
+				2BB56E931C83417400CA9D4D /* PlaceDetail.m in Sources */,
+				2B2EA0251C83ADE0004D0CFC /* CDPlaceDetails.m in Sources */,
+				2BB56E771C83138800CA9D4D /* MPConstants.m in Sources */,
+				2B2EA0381C83C7FB004D0CFC /* PlaceDetailViewController.m in Sources */,
+				2BB56E9C1C83436100CA9D4D /* HomeLocationCell.m in Sources */,
+				2B2EA01F1C839989004D0CFC /* PlacesListViewController.m in Sources */,
+				2BB56E5D1C83024A00CA9D4D /* ViewController.m in Sources */,
+				2BB56EB01C83522600CA9D4D /* GetNearbyPlacesApi.m in Sources */,
+				2BB56E7B1C83144C00CA9D4D /* MPNavigationController.m in Sources */,
+				2B2EA0351C83B9DE004D0CFC /* UIImageView+UrlImage.m in Sources */,
+				2BB56E8A1C8340EB00CA9D4D /* HomeViewController.m in Sources */,
+				2BB56E871C8340CE00CA9D4D /* MPBaseViewController.m in Sources */,
+				2BB56E721C83127800CA9D4D /* MPTabBarController.m in Sources */,
+				2B2EA0411C83DC90004D0CFC /* PlaceMapViewController.m in Sources */,
+				2BB56E5A1C83024A00CA9D4D /* AppDelegate.m in Sources */,
+				2BB56E571C83024A00CA9D4D /* main.m in Sources */,
+				2BB56E8D1C8340FF00CA9D4D /* FavoritesViewController.m in Sources */,
+				2B2EA02B1C83B6E7004D0CFC /* MPCommonFunctions.m in Sources */,
+				2BB56E631C83024A00CA9D4D /* myplaces.xcdatamodeld in Sources */,
+				2BB56E821C8335A100CA9D4D /* MPLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BB56E5E1C83024A00CA9D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB56E5F1C83024A00CA9D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BB56E661C83024A00CA9D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB56E671C83024A00CA9D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB56E6A1C83024A00CA9D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BB56E6B1C83024A00CA9D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB56E6D1C83024A00CA9D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9201FC2975407B5172B7F1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "myplaces/Commons/myplaces-PrefixHeader.pch";
+				INFOPLIST_FILE = myplaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saanspit.myplaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BB56E6E1C83024A00CA9D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84ECB9ED3A2C03276E12FF06 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "myplaces/Commons/myplaces-PrefixHeader.pch";
+				INFOPLIST_FILE = myplaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saanspit.myplaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB56E4D1C83024A00CA9D4D /* Build configuration list for PBXProject "myplaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB56E6A1C83024A00CA9D4D /* Debug */,
+				2BB56E6B1C83024A00CA9D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB56E6C1C83024A00CA9D4D /* Build configuration list for PBXNativeTarget "My Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB56E6D1C83024A00CA9D4D /* Debug */,
+				2BB56E6E1C83024A00CA9D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BB56E611C83024A00CA9D4D /* myplaces.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BB56E621C83024A00CA9D4D /* myplaces.xcdatamodel */,
+			);
+			currentVersion = 2BB56E621C83024A00CA9D4D /* myplaces.xcdatamodel */;
+			path = myplaces.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BB56E4A1C83024A00CA9D4D /* Project object */;
+}

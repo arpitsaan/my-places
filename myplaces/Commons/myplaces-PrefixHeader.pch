@@ -1,0 +1,22 @@
+//
+//  myplaces.pch
+//  myplaces
+//
+//  Created by Arpit Agarwal on 28/02/16.
+//  Copyright © 2016 saanspit. All rights reserved.
+//
+
+#ifndef myplaces_pch
+#define myplaces_pch
+
+#import "MPConstants.h"
+#import "MPMacros.h"
+#import "MPKeys.h"
+#import "MPCommonFunctions.h"
+
+#import "UIImageView+UrlImage.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* myplaces_pch */
